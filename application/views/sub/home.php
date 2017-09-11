@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-md-4"><div class="well well-blue"><a href="<?=site_url('sales/itemlist')?>"><h3 class="well-blue text-center"><i class="fa fa-list-alt fa-lg"></i>&nbsp;<?=lang('home_item')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-orange"><a href="<?=site_url('sales/ordernew')?>"><h3 class="well-orange text-center"><i class="fa fa-plus fa-lg"></i>&nbsp;<?=lang('home_tabnew')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-green"><a href="<?=site_url('sales/orderlist')?>"><h3 class="well-green text-center"><i class="fa fa-eye fa-lg"></i>&nbsp;<?=lang('home_tablist')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-teal"><a href="<?=site_url('sales/customerlist')?>"><h3 class="well-teal text-center"><i class="fa fa-users fa-lg"></i>&nbsp;<?=lang('home_customer')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-olive"><a href="<?=site_url('sales/focitemlist')?>"><h3 class="well-olive text-center"><i class="fa fa-gift fa-lg"></i>&nbsp;<?=lang('home_foc')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-salmon"><a href="<?=site_url('sales/axorders')?>"><h3 class="well-salmon text-center"><i class="fa fa-list fa-lg"></i>&nbsp;<?=lang('home_salesorder')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-gold"><a href="<?=site_url('sales/reports')?>"><h3 class="well-gold text-center"><i class="fa fa-bar-chart fa-lg"></i>&nbsp; <?=lang('home_report')?></h3></a></div></div>
+    <div class="col-md-4"><div class="well well-red"><a href="<?=site_url('admin/settings?name=apisetting')?>"><h3 class="well-red text-center"><i class="fa fa-cogs fa-lg"></i>&nbsp;<?=lang('home_setting')?></h3></a></div></div>    
+    <div class="col-md-4"><div class="well well-navi"><a href="<?=site_url('admin/apisync')?>"><h3 class="well-navi text-center"><i class="fa fa-database fa-lg"></i>&nbsp;<?=lang('home_sync')?></h3></a></div></div>
+</div><!--/row-->
